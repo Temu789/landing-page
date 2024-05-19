@@ -1,14 +1,25 @@
+
 .hero {
     background-color: #1f2937;
-    margin: auto;
-    
+    margin: auto; 
 }
-
 
 .top-section {
     display: flex;
     flex-direction: row;
     align-items: center;
+}
+#logo {
+    height: auto;
+    width: 170px;
+    border-radius: 3px;
+    padding-left: 300px;
+    padding-top: 35px;
+    border-radius: 20px;
+}
+#links {
+    color: white;
+    font-size: 22px;
 }
 
 .top-right {
@@ -25,8 +36,6 @@
     gap: 100px;
     align-items: center;
     padding-top: 20px;
-
-
 }
 
 #wallpaper {
@@ -38,7 +47,7 @@
     color: #E5E7EB;
     height: 37px;
     width: 135px;
-    font-size: 20px;
+    font-size: 22px;
     font-weight: 400;
     border-radius: 10px;
 }
@@ -51,29 +60,17 @@
     font-size: 18px;
     color: #E5E7EB;
 }
-
-#logo {
-    height: auto;
-    width: 170px;
-    border-radius: 3px;
-    padding-left: 300px;
-    padding-top: 35px;
-    border-radius: 20px;
+#secondarytxt {
+    font-style: italic;
+    font-weight: lighter;
 }
-#links {
-    color: white;
-    font-size: 22px;
-}
-
-
-
-/*info sec*/
-
+/*Info section*/
 
 .info-section {
     display: flex;
     justify-content: center;
     flex-direction: column;
+    margin-bottom: 20px;
 }
 .images-list {
     display: flex;
@@ -92,7 +89,9 @@
 }
 
 figcaption{
-    align-items: end;
+    height: auto;
+    width: 230px;
+    font-style: italic;
 }
 #info-text{
     font-size: 36px;
@@ -101,19 +100,16 @@ figcaption{
     text-align: center;
     color: #1f2937;
     margin-top: 50px;
-
+    font-style: italic;
+    margin-bottom: auto;
 }
 
-
-
-
-
-/*qoute sec*/
+/*qoute section*/
 
 .qoute-section {
     background-color: #E5E7EB;
     margin: auto;
-    padding: 150px 200px;
+    padding: 200px 250px;
     display: flex;
     flex-direction: column;
 }
@@ -132,28 +128,24 @@ figcaption{
     font-weight: bold;
 }
 
-
-/*section 3*/
-
-
-
+/*sign up section*/
 
 #call-text {
     color: #E5E7EB;
+    margin-bottom: 5px;
 }
 #call-para{
     color: #E5E7EB;
-    font-size: 20px;
+    font-size: 23px;
+    margin-top: auto;
 }
 .sign-up {
     background-color: #3882F6;
     display: flex;
     flex-direction: row;
-    margin: 100px 250px;
-    justify-content: center;
-    gap: 430px;
+    margin: 100px 300px;
     border-radius: 25px;
-
+    gap: 100px;
 }
 
 #sign-up-button {
@@ -165,22 +157,17 @@ figcaption{
     font-size: 20px;
     border: solid 2px #E5E7EB;
     border-radius: 7px;
-    margin-top: 75px;
-    
+    margin-top: 85px;
 }
 
 .sign-up-text{
     color: #E5E7EB;
-    padding: 40px;
+    padding-left: 150px;
+    padding-top: 50px;
+    padding-bottom: 50px;
 }
 
-
-
 /*FOOTER*/
-
-
-
-
 
 footer{
     display: flex;
@@ -194,5 +181,4 @@ footer{
     font-size: 15px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-weight: lighter;
-    
 }
