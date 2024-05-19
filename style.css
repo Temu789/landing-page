@@ -112,6 +112,7 @@ figcaption{
     padding: 200px 250px;
     display: flex;
     flex-direction: column;
+    gap: 10px;
 }
 #qoute {
     font-size: 36px;
